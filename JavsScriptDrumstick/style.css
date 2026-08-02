@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("background.png") no-repeat center center fixed;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.key {
+  background: rgba(0, 0, 0, 0.4);
+  border: 0.4rem solid rgb(29, 28, 28);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+kbd {
+  font-size: 5rem;
+}
+
+.sound {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
+  color: rgb(211, 127, 18);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgb(211, 127, 18);
+  box-shadow: 0 0 1rem rgb(211, 127, 18);
+}
