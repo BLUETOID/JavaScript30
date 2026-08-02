@@ -2,7 +2,7 @@
   --ink: #f5f1e8;
   --muted: #9f9b91;
   --line: rgba(245, 241, 232, 0.14);
-  --accent: #d7ff54;
+  --accent: #0aecda;
   --card: #181a19;
   --background: #0c0e0d;
 }
@@ -20,7 +20,7 @@ body {
   min-width: 320px;
   color: var(--ink);
   background: var(--background);
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Silkscreen", sans-serif;
 }
 
 body::before {
@@ -74,8 +74,7 @@ body::before {
 
 h1 {
   margin: 22px 0 20px;
-  font-size: clamp(4rem, 10vw, 8rem);
-  letter-spacing: -0.09em;
+  font-size: 4rem;
   line-height: 0.88;
 }
 h1 em {
